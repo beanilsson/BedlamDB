@@ -14,7 +14,8 @@ In Overview mode($) the following commands are available : \n \
 \n \
 In Single DB mode(db_name$) the follwing commands are available : \
 \n \
-* print_content - Prints the entire content of the database\n \
+* print_content - Prints the entire content of the database (first added entry first)\n \
+* print_content_reverse - Prints the entire content of the database in reverse order (last added entry first)\n \
 * print_entry my_entry - Prints all entries containing the word my_entry\n \
 * insert my_entry - Inserts the data my_entry to the database\n \
 * quit - Quits Single DB mode and enters Overview mode\n \
