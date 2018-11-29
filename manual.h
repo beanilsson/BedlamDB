@@ -19,6 +19,7 @@ In Single DB mode(db_name$) the follwing commands are available : \
 * print_entry my_entry - Prints all entries containing the word my_entry\n \
 * insert my_entry - Inserts the data my_entry to the database\n \
 * quit - Quits Single DB mode and enters Overview mode\n \
+* insert_bulk - Insert more than one entry at the same time. Wrap each entry in a pair of curlybraces, like so: {data}{more data}{cats}\n \
 \n \
 \n \
 All entries are stored in chronological order within the database.";
